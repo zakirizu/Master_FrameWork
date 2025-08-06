@@ -1,0 +1,11 @@
+Dependencies Needed
+Selenium 
+TestNG
+Cucumber
+Log4j --> API and Core
+Apache Poi for Excel Read data
+
+
+Log4j Dependency
+Add Two Dependencies 
+Then add the xml file under the src/main/resources folder
