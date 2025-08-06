@@ -164,3 +164,6 @@
 2025-08-06 17:33:44 [main] INFO  utils.ExcelFileReader - Reading the data from Excel Sheet.SheetName: alpha, TestCase ID:tc2
 2025-08-06 17:33:56 [main] INFO  utils.ExcelFileReader - Reading the data from Excel Sheet.SheetName: alpha, TestCase ID:t2c2
 2025-08-06 17:35:52 [main] INFO  utils.ExcelFileReader - Reading the data from Excel Sheet.SheetName: alpha, TestCase ID:t2c2
+2025-08-07 00:08:40 [main] INFO  utils.PropertyFileReader - Browser Type Chrome Inititated
+2025-08-07 00:09:30 [main] INFO  utils.PropertyFileReader - Browser Type Chrome Inititated
+2025-08-07 00:10:26 [main] INFO  utils.PropertyFileReader - Browser Type Chrome Inititated

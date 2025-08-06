@@ -12,12 +12,28 @@ public LoginPage(WebDriver driver) {
 	PageFactory.initElements(driver, this);
 }
 
+public void getLogintoApplicaiton() {
+	userName.sendKeys("qa_zakir");
+	passWord.sendKeys("asdf@123");
+}
 
-@FindBy(xpath = "")
+
+
+public WebElement getUserName() {
+	return userName;
+}
+
+public WebElement getPassWord() {
+	return passWord;
+}
+
+
+
+@FindBy(xpath = "//input[@id='txtUserID']")
 private WebElement userName;
 
 
-@FindBy(xpath="")
+@FindBy(xpath = "//input[@id='txtPassword']")
 private WebElement passWord;
 
 

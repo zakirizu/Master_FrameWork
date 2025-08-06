@@ -1,6 +1,7 @@
 package base;
 
 import java.io.IOException;
+import java.time.Duration;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -41,6 +42,7 @@ public class CreateDriverObject  {
 			}
 			
 			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 			
 		}
 		catch(Exception e) {
