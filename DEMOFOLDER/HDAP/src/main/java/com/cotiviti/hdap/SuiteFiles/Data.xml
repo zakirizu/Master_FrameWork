@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CreateData">
+	<listeners>
+		<listener
+			class-name="com.cotiviti.hdap.Listeners.TestListener" />
+	</listeners>
+	<test thread-count="10" name="Creation Of Data" parallel="tests">
+		<groups>
+			<run>
+				<include name="datagenerate" />
+			</run>
+		</groups>
+		<packages>
+			<package name="com.cotiviti.hdap.API.Tests.*" />
+		</packages>
+	</test>
+</suite>

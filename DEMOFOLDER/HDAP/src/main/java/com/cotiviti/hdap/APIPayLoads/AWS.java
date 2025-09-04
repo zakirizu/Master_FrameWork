@@ -1,0 +1,13 @@
+package com.cotiviti.hdap.APIPayLoads;
+
+public class AWS {
+
+    // Method to get the JSON payload with dynamic placeholders replaced
+    public static String AWS_1_Payload(String change1, String change2, String change3, String change4) {        
+        // Define the JSON template with placeholders for changes
+        String AWS1 = "{ \"resourceType\": \"Practitioner\", \"id\": \"17ef037a-7fcb-4164-8e8b-6f9f518f02cd\", \"text\": { \"status\": \"generated\", \"div\": \"<div xmlns='http://www.w3.org/1999/xhtml'>Haidar Almohammad</div>\" }, \"active\": true, \"identifier\": [ { \"use\": \"official\", \"type\": { \"coding\": [ { \"system\": \"http://terminology.hl7.org/CodeSystem/v2-0203\", \"code\": \"NPI\", \"display\": \"National Provider Identifier\" } ] }, \"system\": \"http://hl7.org/fhir/sid/us-npi\", \"value\": \"" + change1 + "\" }, { \"use\": \"official\", \"type\": { \"coding\": [ { \"system\": \"http://terminology.hl7.org/CodeSystem/v2-0203\", \"code\": \"TAX\", \"display\": \"Tax Identifier\" } ] }, \"system\": \"http://hl7.org/fhir/sid/us-tax\", \"value\": \"646591556\" }, { \"use\": \"official\", \"type\": { \"coding\": [ { \"system\": \"http://cotiviti.com/friendly-id\", \"code\": \"ID\", \"display\": \"Friendly Identifier\" } ] }, \"system\": \"http://cotiviti.com/friendly-id\", \"value\": \"" + change2 + "\" } ], \"name\": [ { \"use\": \"official\", \"text\": \"test\", \"family\": \"New P\", \"given\": [ \"Unique\" ], \"prefix\": [ \"Prof\" ], \"period\": { \"start\": \"2024-01-10\", \"end\": \"2039-04-12\" } } ], \"birthDate\": \"1968-08-28\", \"gender\": \"other\", \"telecom\": [ { \"system\": \"email\", \"value\": \"" + change3 + "\", \"use\": \"home\", \"rank\": 1, \"period\": { \"start\": \"2024-01-10\", \"end\": \"2024-01-31\" } }, { \"system\": \"phone\", \"value\": \"" + change4 + "\", \"use\": \"mobile\", \"rank\": 1, \"period\": { \"start\": \"2024-01-10\", \"end\": \"2024-02-20\" } }, { \"system\": \"fax\", \"value\": \"(644) 123-7486\", \"use\": \"work\", \"rank\": 1, \"period\": { \"start\": \"2024-01-10\", \"end\": \"2024-01-17\" } }, { \"system\": \"pager\", \"value\": \"664012011\", \"use\": \"temp\", \"rank\": 1, \"period\": { \"start\": \"2023-01-02\", \"end\": \"2023-01-05\" } } ], \"communication\": [ { \"coding\": [ { \"system\": \"urn:ietf:bcp:47\", \"code\": \"en\", \"display\": \"English\" }, { \"system\": \"urn:ietf:bcp:47\", \"code\": \"dsb\", \"display\": \"Lower Sorbian\" } ] } ], \"meta\": { \"lastUpdated\": \"2024-11-26T08:25:45.482937721Z\", \"versionId\": \"1\" } }";
+        
+        // Return the dynamically updated JSON string
+        return AWS1;
+    }
+}

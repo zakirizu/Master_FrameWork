@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="10" name="Test" parallel="methods">
+		<classes>
+			<class name="APIs.Bulk_Create_PreLaunch_Requests">
+				<methods>
+					<include name="ChaseRequest_With_Single_Matching_RG_01"></include>
+					<include name="ChaseRequest_With_Single_Matching_RG_02"></include>
+					<include name="ChaseRequest_With_Single_Matching_RG_03"></include>
+					<include name="ChaseRequest_With_Single_Matching_RG_04"></include>
+					<include name="ChaseRequest_With_Single_Matching_RG_05"></include>
+					<include name="ChaseRequest_With_Single_Matching_RG_06"></include>
+					<include name="ChaseRequest_With_Single_Matching_RG_07"></include>
+					<include name="ChaseRequest_With_Single_Matching_RG_08"></include>
+					<include name="ChaseRequest_With_Single_Matching_RG_09"></include>
+					<include name="ChaseRequest_With_Single_Matching_RG_10"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

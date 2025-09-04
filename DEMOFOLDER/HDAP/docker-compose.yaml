@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  testng-runner:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: testng-runner
+    environment:
+      - env=QA
+      - SuiteFile=src/main/java/com/cotiviti/hdap/SuiteFiles/QASanity.xml
+    command: mvn clean test -Denv=QA -DSuiteFile=src/main/java/com/cotiviti/hdap/SuiteFiles/QASanity.xml

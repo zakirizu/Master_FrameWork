@@ -1,0 +1,140 @@
+{
+    "ChaseRequest": {
+        "ChaseRequestHeader": {
+            "IntendedUse": "{{IntendedUse}}",
+            "AuditType": "{{AuditType}}",
+            "ChartType": "{{ChartType}}",
+            "RelatedChaseID": "911",
+            "ExternalChaseNumber": "894986377",
+            "GlobalWorkforceApproved": false,
+            "ExpirationDate": "2025-12-09",
+            "MRAvailableInClientSystem": false,
+            "MRClientSystemDCN": "8478579337",
+            "ProspectiveClaimFlag": false,
+            "ClientID": 13,
+            "AccountID": "N900",
+            "SubAccountId": "DS01",
+            "PortalRequestCode": "46378",
+            "PlanName": "6",
+            "PrimaryChaseRequestProviderRole": "RenderingProvider",
+            "ExplicitRequestGroupId": null
+        },
+        "ClaimDetails": {
+            "CotivitiClaimNumber": "{{CotivitiClaimNumber}}",
+            "ClaimType": "S",
+            "InNetwork": true,
+            "ClientClaimNumber": "{{ClientClaimNumber}}",
+            "DateOfServiceStart": "{{DateOfServiceStart}}",
+            "DateOfServiceEnd": "{{DateOfServiceEnd}}",
+            "TotalClaimAmt": 1666.09,
+            "ProviderSpecialty": "test",
+            "PatientMemberIdx": 2,
+            "SubscriberMemberIdx": 1,
+            "BillingProviderIdx": 1,
+            "RenderingProviderIdx": 2
+        },
+        "ChaseDetails": {
+            "DOSChartRangeStart1": "2022-09-26",
+            "DOSChartRangeEnd1": "2022-09-26",
+            "DOSChartRangeStart2": "2022-09-26",
+            "DOSChartRangeEnd2": "2022-09-26",
+            "DOSChartRangeStart3": "2022-09-26",
+            "DOSChartRangeEnd3": "2022-09-26",
+            "DOSChartRangeStart4": "2022-09-26",
+            "DOSChartRangeEnd4": "2022-09-26",
+            "DeliveryDate": "2022-09-26",
+            "RetrievalRank": 8,
+            "HedisMeasureID": "HEDIS26",
+            "MeasurementGap": "Measure2",
+            "SubMeasurementGap": "SubMeasure5",
+            "IsOversampleFlag": true,
+            "ChasePriority": "High",
+            "RADVEnrolleeID": "RADV3354",
+            "MedicareAdvantagecontractNumber": "MA353"
+        },
+        "Members": [
+            {
+                    "Member": {
+                    "LastName": "Paul",
+                    "FirstName": "Paker",
+                    "Address1": "048 Hinton Loop Apt. 872",
+                    "Address2": "Apt. 736",
+                    "City": "Kathleenside",
+                    "State": "KY",
+                    "Zip": "62417",
+                    "DOB": "1982-04-18",
+                    "Gender": "M",
+                    "SSN": "495-92-8935",
+                    "PatientId": "4145",
+                    "HICN": "716351468",
+                    "ControlNumber": "9679",
+                    "MBI": "98716",
+                    "RecordNumber": "87618",
+                    "ClientMemberID": "89225"
+                }
+            },
+            {
+                "Member": {
+                    "LastName": "{{LastName}}",
+                    "FirstName": "{{FirstName}}",
+                    "Address1": "644 Rachel Ridge Apt. 945",
+                    "Address2": "Suite 660",
+                    "City": "East Victoriaborough",
+                    "State": "MS",
+                    "Zip": "14075",
+                    "DOB": "{{DOB}}",
+                    "Gender": "F",
+                    "SSN": "790-57-4891",
+                    "PatientId": "4906",
+                    "HICN": "949290986",
+                    "ControlNumber": "1092",
+                    "MBI": "77340",
+                    "RecordNumber": "26970",
+                    "ClientMemberID": "57303"
+                }
+            }
+        ],
+        "Providers": [
+            {
+               
+                "Provider": {
+                    "Name": "{{FacitlityName}}",
+                    "LastName": "",
+                    "FirstName": "",
+                    "Address1": "{{FAddress1}}",
+                    "Address2": "{{FAddress2}}",
+                    "City": "{{FCity}}",
+                    "State": "{{FState}}",
+                    "Zip": "{{FZip}}",
+                    "NPI": "{{FNPI}}",
+                    "TIN": "{{FTIN}}",
+                    "Phone1": "147-764-4955",
+                    "Phone2": "746-655-2864",
+                    "Phone3": "586-128-4316",
+                    "Fax": "498-946-3184",
+                    "ClientProviderId": "3435"
+                }
+            },
+            {
+                
+                "Provider": {
+                    "Name": "",
+                    "LastName": "{{PLastName}}",
+                    "FirstName": "{{PFirstName}}",
+                    "Address1": "{{PAddress1}}",
+                    "Address2": "{{PAddress2}}",
+                    "City": "{{PCity}}",
+                    "State": "{{PState}}",
+                    "Zip": "{{PZip}}",
+                    "NPI": "{{PNPI}}",
+                    "TIN": "{{PTIN}}",
+                    "Phone1": "672-418-1811",
+                    "Phone2": "242-244-8446",
+                    "Phone3": "366-449-9188",
+                    "Fax": "168-994-3569",
+                    "ClientProviderId": "619"
+                }
+            }
+        ]
+    }
+}

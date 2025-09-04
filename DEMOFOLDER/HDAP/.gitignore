@@ -1,0 +1,12 @@
+/.metadata/
+/.exe/
+/HDAP/test-output/
+/HDAP/TestResults_CucumberReports/
+/HDAP/target/
+/.csv/
+/test-output/
+/TestResults_CucumberReports/
+/target/
+/output.xlsx
+/QASanity - Copy.xlsx
+/TestResults/
