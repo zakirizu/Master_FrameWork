@@ -16,7 +16,7 @@ public void getLogintoApplicaiton() {
 	userName.sendKeys("qa_zakir");
 	passWord.sendKeys("asdf@123");
 }
-//Test
+
 
 
 
@@ -30,7 +30,7 @@ public WebElement getPassWord() {
 
 
 
-@FindBy(xpath = "//input[@id='txtUserID']")
+@FindBy(xpath = "//input[@id='txtUserIDNew']")
 private WebElement userName;
 
 

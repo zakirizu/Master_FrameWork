@@ -17,6 +17,8 @@ public class LoginTest {
 	static WebDriver driver ;
 	LoginPage login;
 	keyWords keys;
+
+
 	
 	@BeforeMethod
 	public void launchBrowser() throws IOException {
@@ -35,6 +37,8 @@ public class LoginTest {
 		Thread.sleep(8000);
 		driver.close();		
 	}
+	
+
 	
 	
 	
